@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace VacantPlanet\Boiler\Tests;
+namespace FiveOrbs\Boiler\Tests;
 
-use VacantPlanet\Boiler\Proxy\ValueProxy;
-use VacantPlanet\Boiler\Template;
-use VacantPlanet\Boiler\TemplateContext;
-use VacantPlanet\Boiler\Tests\TestCase;
+use FiveOrbs\Boiler\Proxy\ValueProxy;
+use FiveOrbs\Boiler\Template;
+use FiveOrbs\Boiler\TemplateContext;
+use FiveOrbs\Boiler\Tests\TestCase;
 
 final class TemplateContextTest extends TestCase
 {

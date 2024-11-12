@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace VacantPlanet\Boiler\Tests;
+namespace FiveOrbs\Boiler\Tests;
 
+use FiveOrbs\Boiler\Engine;
+use FiveOrbs\Boiler\Exception\LogicException;
+use FiveOrbs\Boiler\Exception\LookupException;
+use FiveOrbs\Boiler\Exception\RuntimeException;
+use FiveOrbs\Boiler\Exception\UnexpectedValueException;
+use FiveOrbs\Boiler\Proxy\ValueProxy;
+use FiveOrbs\Boiler\Tests\TestCase;
 use ParseError;
 use PHPUnit\Framework\Attributes\TestDox;
-use VacantPlanet\Boiler\Engine;
-use VacantPlanet\Boiler\Exception\LogicException;
-use VacantPlanet\Boiler\Exception\LookupException;
-use VacantPlanet\Boiler\Exception\RuntimeException;
-use VacantPlanet\Boiler\Exception\UnexpectedValueException;
-use VacantPlanet\Boiler\Proxy\ValueProxy;
-use VacantPlanet\Boiler\Tests\TestCase;
 
 final class EngineTest extends TestCase
 {

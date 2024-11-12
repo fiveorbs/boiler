@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace VacantPlanet\Boiler;
+namespace FiveOrbs\Boiler;
 
 use Symfony\Component\HtmlSanitizer\HtmlSanitizer;
 use Symfony\Component\HtmlSanitizer\HtmlSanitizerConfig;

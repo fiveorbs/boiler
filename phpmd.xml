@@ -18,8 +18,8 @@
 		<properties>
 			<property name="exceptions">
 				<value>
-					\VacantPlanet\Boiler\Engine,
-					\VacantPlanet\Boiler\Wrapper
+					\FiveOrbs\Boiler\Engine,
+					\FiveOrbs\Boiler\Wrapper
 				</value>
 			</property>
 		</properties>

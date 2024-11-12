@@ -3,7 +3,7 @@
 Install Boiler via Composer:
 
 ```shell
-composer require vacantplanet/boiler
+composer require fiveorbs/boiler
 ```
 
 Then create a directory where your PHP templates reside.  
@@ -24,7 +24,7 @@ path
 Now create a `Engine` instance and render the template:
 
 ```php
-use VacantPlanet\Boiler\Engine;
+use FiveOrbs\Boiler\Engine;
 
 $engine = new Engine('/path/to/templates');
 $html = $engine->render('page', ['id' => 13]);

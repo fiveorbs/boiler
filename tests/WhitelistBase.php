@@ -2,6 +2,6 @@
 
 declare(strict_types=1);
 
-namespace VacantPlanet\Boiler\Tests;
+namespace FiveOrbs\Boiler\Tests;
 
 class WhitelistBase {}

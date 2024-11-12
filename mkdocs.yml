@@ -1,4 +1,4 @@
-site_name: VacantPlanet Boiler
+site_name: FiveOrbs Boiler
 copyright: © 2022-2024 ebene fünf GmbH
 nav:
   - 'Introduction': index.md
@@ -11,8 +11,8 @@ nav:
   - sections.md
   - template.md
 theme:
-    name: vacantplanet
-repo_url: https://github.com/vacantplanet/boiler
+    name: fiveorbs
+repo_url: https://github.com/fiveorbs/boiler
 extra:
     project: Boiler
 plugins:

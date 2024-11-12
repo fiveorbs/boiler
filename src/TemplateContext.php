@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace VacantPlanet\Boiler;
+namespace FiveOrbs\Boiler;
 
+use FiveOrbs\Boiler\Proxy\ProxyInterface;
+use FiveOrbs\Boiler\Proxy\ValueProxy;
 use Symfony\Component\HtmlSanitizer\HtmlSanitizerConfig;
-use VacantPlanet\Boiler\Proxy\ProxyInterface;
-use VacantPlanet\Boiler\Proxy\ValueProxy;
 
 /**
  * @psalm-api

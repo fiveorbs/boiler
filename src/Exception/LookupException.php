@@ -2,6 +2,6 @@
 
 declare(strict_types=1);
 
-namespace VacantPlanet\Boiler\Exception;
+namespace FiveOrbs\Boiler\Exception;
 
 class LookupException extends RuntimeException implements TemplateException {}

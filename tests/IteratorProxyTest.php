@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace VacantPlanet\Boiler\Tests;
+namespace FiveOrbs\Boiler\Tests;
 
-use VacantPlanet\Boiler\Proxy\ArrayProxy;
-use VacantPlanet\Boiler\Proxy\IteratorProxy;
-use VacantPlanet\Boiler\Proxy\ValueProxy;
+use FiveOrbs\Boiler\Proxy\ArrayProxy;
+use FiveOrbs\Boiler\Proxy\IteratorProxy;
+use FiveOrbs\Boiler\Proxy\ValueProxy;
 
 final class IteratorProxyTest extends TestCase
 {

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace VacantPlanet\Boiler;
+namespace FiveOrbs\Boiler;
 
-use VacantPlanet\Boiler\Exception\LogicException;
+use FiveOrbs\Boiler\Exception\LogicException;
 
 class Sections
 {

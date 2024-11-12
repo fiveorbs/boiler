@@ -1,10 +1,10 @@
 # Boiler
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE.md)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/cd2e266bcfb14b21b8ce11ddaafe4f06)](https://app.codacy.com/gh/vacantplanet/boiler/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
-[![Codacy Badge](https://app.codacy.com/project/badge/Coverage/cd2e266bcfb14b21b8ce11ddaafe4f06)](https://app.codacy.com/gh/vacantplanet/boiler/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_coverage)
-[![Psalm level](https://shepherd.dev/github/vacantplanet/boiler/level.svg?)](https://vacantplanet.dev/boiler)
-[![Psalm coverage](https://shepherd.dev/github/vacantplanet/boiler/coverage.svg?)](https://shepherd.dev/github/vacantplanet/boiler)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/cd2e266bcfb14b21b8ce11ddaafe4f06)](https://app.codacy.com/gh/fiveorbs/boiler/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Coverage/cd2e266bcfb14b21b8ce11ddaafe4f06)](https://app.codacy.com/gh/fiveorbs/boiler/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_coverage)
+[![Psalm level](https://shepherd.dev/github/fiveorbs/boiler/level.svg?)](https://fiveorbs.dev/boiler)
+[![Psalm coverage](https://shepherd.dev/github/fiveorbs/boiler/coverage.svg?)](https://shepherd.dev/github/fiveorbs/boiler)
 
 Boiler is a native >=PHP 8.2 template engine in the vein of
 [Plates](https://platesphp.com/), which uses PHP itself instead of a custom
@@ -24,7 +24,7 @@ Notable differences:
 ## Installation
 
 ```console
-composer require vacantplanet/boiler
+composer require fiveorbs/boiler
 ```
 
 ## Quick start
@@ -47,7 +47,7 @@ path
 Now create a `Engine` instance and render the template:
 
 ```php
-use VacantPlanet\Boiler\Engine;
+use FiveOrbs\Boiler\Engine;
 
 $engine = new Engine('/path/to/templates');
 $html = $engine->render('page', ['id' => 13]);

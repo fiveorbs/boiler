@@ -1,5 +1,5 @@
 {
-	"name": "vacantplanet/boiler",
+	"name": "fiveorbs/boiler",
 	"description": "A PHP template engine that doesn't require you to learn a new syntax",
 	"type": "library",
 	"minimum-stability": "dev",
@@ -8,24 +8,24 @@
 	"authors": [
 		{
 			"name": "ebene fünf GmbH",
-			"email": "vacantplanet@ebenefuenf.de",
+			"email": "fiveorbs@ebenefuenf.de",
 			"role": "Developer"
 		}
 	],
-	"homepage": "https://vacantplanet.dev/boiler",
+	"homepage": "https://fiveorbs.dev/boiler",
 	"keywords": [
-		"vacantplanet",
+		"fiveorbs",
 		"templating",
 		"templates"
 	],
 	"autoload": {
 		"psr-4": {
-			"VacantPlanet\\Boiler\\": "src/"
+			"FiveOrbs\\Boiler\\": "src/"
 		}
 	},
 	"autoload-dev": {
 		"psr-4": {
-			"VacantPlanet\\Boiler\\Tests\\": "tests"
+			"FiveOrbs\\Boiler\\Tests\\": "tests"
 		}
 	},
 	"require": {
@@ -37,7 +37,7 @@
 		"dealerdirect/phpcodesniffer-composer-installer": "^1.0",
 		"phpunit/phpunit": "^10.5",
 		"staabm/annotate-pull-request-from-checkstyle": "^1.8",
-		"vacantplanet/development": "^1.1",
+		"fiveorbs/dev": "^1.1",
 		"vimeo/psalm": "5.25",
 		"phpmd/phpmd": "^2.15"
 	},

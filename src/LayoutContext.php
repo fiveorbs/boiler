@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace VacantPlanet\Boiler;
+namespace FiveOrbs\Boiler;
 
 /** @psalm-api */
 class LayoutContext extends TemplateContext

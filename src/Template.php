@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace VacantPlanet\Boiler;
+namespace FiveOrbs\Boiler;
 
+use FiveOrbs\Boiler\Exception\LookupException;
+use FiveOrbs\Boiler\Exception\RuntimeException;
 use Throwable;
-use VacantPlanet\Boiler\Exception\LookupException;
-use VacantPlanet\Boiler\Exception\RuntimeException;
 
 /**
  * @psalm-api

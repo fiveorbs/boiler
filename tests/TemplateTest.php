@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace VacantPlanet\Boiler\Tests;
+namespace FiveOrbs\Boiler\Tests;
 
+use FiveOrbs\Boiler\Exception\LookupException;
+use FiveOrbs\Boiler\Proxy\ValueProxy;
+use FiveOrbs\Boiler\Template;
+use FiveOrbs\Boiler\Tests\TestCase;
+use FiveOrbs\Boiler\Tests\WhitelistBase;
+use FiveOrbs\Boiler\Tests\Whitelisted;
 use ParseError;
-use VacantPlanet\Boiler\Exception\LookupException;
-use VacantPlanet\Boiler\Proxy\ValueProxy;
-use VacantPlanet\Boiler\Template;
-use VacantPlanet\Boiler\Tests\TestCase;
-use VacantPlanet\Boiler\Tests\WhitelistBase;
-use VacantPlanet\Boiler\Tests\Whitelisted;
 
 final class TemplateTest extends TestCase
 {

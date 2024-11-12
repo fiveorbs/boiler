@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<ruleset name="vacantplanet">
+<ruleset name="fiveorbs">
 	<description>coding standard</description>
 	<rule ref="PSR12">
 		<exclude name="Generic.WhiteSpace.DisallowTabIndent.TabsUsed" />

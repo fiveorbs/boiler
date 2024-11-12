@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace VacantPlanet\Boiler\Tests;
+namespace FiveOrbs\Boiler\Tests;
 
+use FiveOrbs\Boiler\Exception\RuntimeException;
+use FiveOrbs\Boiler\Proxy\ValueProxy;
 use PHPUnit\Framework\Attributes\TestDox;
-use VacantPlanet\Boiler\Exception\RuntimeException;
-use VacantPlanet\Boiler\Proxy\ValueProxy;
 use ValueError;
 
 final class ValueProxyTest extends TestCase

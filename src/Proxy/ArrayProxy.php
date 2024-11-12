@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace VacantPlanet\Boiler\Proxy;
+namespace FiveOrbs\Boiler\Proxy;
 
 use ArrayAccess;
 use Countable;
+use FiveOrbs\Boiler\Exception\OutOfBoundsException;
+use FiveOrbs\Boiler\Exception\RuntimeException;
+use FiveOrbs\Boiler\Exception\UnexpectedValueException;
+use FiveOrbs\Boiler\Wrapper;
 use Iterator;
-use VacantPlanet\Boiler\Exception\OutOfBoundsException;
-use VacantPlanet\Boiler\Exception\RuntimeException;
-use VacantPlanet\Boiler\Exception\UnexpectedValueException;
-use VacantPlanet\Boiler\Wrapper;
 
 /**
  * @psalm-api

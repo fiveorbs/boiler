@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace VacantPlanet\Boiler\Proxy;
+namespace FiveOrbs\Boiler\Proxy;
 
+use FiveOrbs\Boiler\Wrapper;
 use Iterator;
 use IteratorIterator;
-use VacantPlanet\Boiler\Wrapper;
 
 /**
  * @psalm-api

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace VacantPlanet\Boiler\Tests;
+namespace FiveOrbs\Boiler\Tests;
 
+use FiveOrbs\Boiler\Sanitizer;
 use Symfony\Component\HtmlSanitizer\HtmlSanitizerConfig;
-use VacantPlanet\Boiler\Sanitizer;
 
 final class SanitizerTest extends TestCase
 {

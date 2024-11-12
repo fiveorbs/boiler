@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace VacantPlanet\Boiler\Proxy;
+namespace FiveOrbs\Boiler\Proxy;
 
+use FiveOrbs\Boiler\Exception\RuntimeException;
+use FiveOrbs\Boiler\Sanitizer;
+use FiveOrbs\Boiler\Wrapper;
 use Symfony\Component\HtmlSanitizer\HtmlSanitizerConfig;
-use VacantPlanet\Boiler\Exception\RuntimeException;
-use VacantPlanet\Boiler\Sanitizer;
-use VacantPlanet\Boiler\Wrapper;
 
 /** @psalm-api */
 class ValueProxy implements ProxyInterface

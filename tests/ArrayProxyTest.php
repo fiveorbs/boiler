@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace VacantPlanet\Boiler\Tests;
+namespace FiveOrbs\Boiler\Tests;
 
-use VacantPlanet\Boiler\Exception\OutOfBoundsException;
-use VacantPlanet\Boiler\Exception\RuntimeException;
-use VacantPlanet\Boiler\Exception\UnexpectedValueException;
-use VacantPlanet\Boiler\Proxy\ArrayProxy;
-use VacantPlanet\Boiler\Proxy\IteratorProxy;
-use VacantPlanet\Boiler\Proxy\ValueProxy;
+use FiveOrbs\Boiler\Exception\OutOfBoundsException;
+use FiveOrbs\Boiler\Exception\RuntimeException;
+use FiveOrbs\Boiler\Exception\UnexpectedValueException;
+use FiveOrbs\Boiler\Proxy\ArrayProxy;
+use FiveOrbs\Boiler\Proxy\IteratorProxy;
+use FiveOrbs\Boiler\Proxy\ValueProxy;
 
 final class ArrayProxyTest extends TestCase
 {

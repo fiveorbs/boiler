@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace VacantPlanet\Boiler\Tests;
+namespace FiveOrbs\Boiler\Tests;
 
+use FiveOrbs\Boiler\Exception\LookupException;
+use FiveOrbs\Boiler\TemplatePath;
 use PHPUnit\Framework\Attributes\TestDox;
-use VacantPlanet\Boiler\Exception\LookupException;
-use VacantPlanet\Boiler\TemplatePath;
 
 final class TemplatePathTest extends TestCase
 {

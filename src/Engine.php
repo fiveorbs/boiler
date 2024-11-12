@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace VacantPlanet\Boiler;
+namespace FiveOrbs\Boiler;
 
-use VacantPlanet\Boiler\Exception\LookupException;
-use VacantPlanet\Boiler\Exception\UnexpectedValueException;
+use FiveOrbs\Boiler\Exception\LookupException;
+use FiveOrbs\Boiler\Exception\UnexpectedValueException;
 
 /**
  * @psalm-api
