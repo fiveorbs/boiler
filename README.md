@@ -1,25 +1,27 @@
 # Boiler
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE.md)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/cd2e266bcfb14b21b8ce11ddaafe4f06)](https://app.codacy.com/gh/fiveorbs/boiler/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
-[![Codacy Badge](https://app.codacy.com/project/badge/Coverage/cd2e266bcfb14b21b8ce11ddaafe4f06)](https://app.codacy.com/gh/fiveorbs/boiler/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_coverage)
-[![Psalm level](https://shepherd.dev/github/fiveorbs/boiler/level.svg?)](https://fiveorbs.dev/boiler)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/4c82c13a91064b58ad709772a12b85bf)](https://app.codacy.com/gh/fiveorbs/boiler/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Coverage/4c82c13a91064b58ad709772a12b85bf)](https://app.codacy.com/gh/fiveorbs/boiler/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_coverage)
+[![Psalm level](https://shepherd.dev/github/fiveorbs/boiler/level.svg?)](https://shepherd.dev/github/fiveorbs/boiler)
 [![Psalm coverage](https://shepherd.dev/github/fiveorbs/boiler/coverage.svg?)](https://shepherd.dev/github/fiveorbs/boiler)
 
-Boiler is a native >=PHP 8.2 template engine in the vein of
-[Plates](https://platesphp.com/), which uses PHP itself instead of a custom
-template language.
+> [!WARNING]  
+> This template engine is under active development, so some of the
+> features listed and parts of the documentation may be still experimental,
+> subject to change, or missing.
 
-> :warning: **Note**: This template engine is under active development, some of
-> the listed features are still experimental and subject to change. Large parts
-> of the documentation are missing.
+Boiler is a template engine for PHP 8.2 and above, inspired by Plates.
+Like Plates, it uses native PHP as its templating language rather than
+introducing a custom syntax. 
 
-Notable differences:
+Key differences from Plates:
 
-* It auto escapes strings and
-  [Stringable](https://www.php.net/manual/en/class.stringable.php) values.
-* The template context, i. e. all variables available in the template, is
-  global.
+- Automatic escaping of strings and
+  [Stringable](https://www.php.net/manual/en/class.stringable.php) values for
+  enhanced security
+- Global template context, making all variables accessible throughout the
+  template
 
 ## Installation
 
@@ -29,7 +31,7 @@ composer require fiveorbs/boiler
 
 ## Quick start
 
-Assuming the following directory structure ...
+Consider this example directory structure:
 
 ```text
 path
@@ -38,13 +40,13 @@ path
 		`-- page.php
 ```
 
-... and the content of the file `/path/to/templates/page.php` to be:
+Create a template file at `/path/to/templates/page.php` with this content:
 
 ```php
 <p>ID <?= $id ?></p>
 ```
 
-Now create a `Engine` instance and render the template:
+Then initialize the `Engine` and render your template:
 
 ```php
 use FiveOrbs\Boiler\Engine;
@@ -65,6 +67,6 @@ phpunit --testdox && \
 
 ## License
 
-Boiler is released under the MIT [license](LICENSE.md).
+Boiler is available under the [MIT license](LICENSE.md).
 
 Copyright © 2022-2024 ebene fünf GmbH. All rights reserved.
